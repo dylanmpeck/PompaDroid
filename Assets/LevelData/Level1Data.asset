@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507255a8744cf43bfb51f0b5d82fb09a, type: 3}
+  m_Name: Level1Data
+  m_EditorClassIdentifier: 
+  battleData:
+  - column: 30
+    enemies:
+    - type: 0
+      color: 0
+      row: 1
+      offset: -1.1
+    - type: 0
+      color: 0
+      row: 2
+      offset: -1.1
+    - type: 0
+      color: 0
+      row: 3
+      offset: 1.1
+    - type: 0
+      color: 0
+      row: 4
+      offset: 1.1
+    - type: 0
+      color: 0
+      row: 4
+      offset: 1.1
+    - type: 0
+      color: 4
+      row: 1
+      offset: -1.3
+    - type: 0
+      color: 4
+      row: 4
+      offset: 1.3
+  - column: 45
+    enemies:
+    - type: 0
+      color: 1
+      row: 1
+      offset: -1.1
+    - type: 0
+      color: 1
+      row: 2
+      offset: -1.1
+    - type: 0
+      color: 1
+      row: 3
+      offset: 1.1
+    - type: 0
+      color: 2
+      row: 4
+      offset: 1.1
+    - type: 0
+      color: 2
+      row: 4
+      offset: 1.1
+    - type: 0
+      color: 4
+      row: 1
+      offset: -1.3
+    - type: 0
+      color: 4
+      row: 4
+      offset: 1.3
+  - column: 60
+    enemies:
+    - type: 1
+      color: 4
+      row: 1
+      offset: -1.1
+  levelPrefab: {fileID: 1907254984311954, guid: d200073c8aebf434e905fd8e4e831d1e,
+    type: 2}
+  levelName: Level 1
